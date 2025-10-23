@@ -29,8 +29,9 @@
         android:layout_marginTop="94dp"
         android:layout_marginEnd="40dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Insira seu Email"
+        android:inputType="text"
+        android:textColorHint="@color/black"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +48,7 @@
         android:inputType="text"
         android:hint="Insira sua senha"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtxtEmailCad" />

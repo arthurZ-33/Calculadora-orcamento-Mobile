@@ -39,7 +39,7 @@ public class TelaCadastrarActivity extends AppCompatActivity {
                     Toast.makeText(TelaCadastrarActivity.this, "Insira o seu email", Toast.LENGTH_SHORT).show();
                 } else if (senha.isEmpty()) {
                     Toast.makeText(TelaCadastrarActivity.this, "Insira a sua senha", Toast.LENGTH_SHORT).show();
-                }else if(senha.length() >= 6){
+                }else if(senha.length() < 6){
                     Toast.makeText(TelaCadastrarActivity.this, "A senha deve ter mais de 6 caracteres!", Toast.LENGTH_SHORT).show();
                 } else {
                     Long res =db.criarUsuario(email, senha);
@@ -49,11 +49,17 @@ public class TelaCadastrarActivity extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     } else {
-                        Toast.makeText(TelaCadastrarActivity.this, "Erro no cadastro email ja existente", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TelaCadastrarActivity.this, "Erro no cadastro email ja existente ou senha inválida", Toast.LENGTH_SHORT).show();
                     }
                 }
-
-
+            }
+        });
+        btnTelaLog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TelaCadastrarActivity.this, TelaLoginActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

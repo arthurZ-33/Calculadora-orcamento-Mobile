@@ -30,6 +30,7 @@
         android:ems="10"
         android:textStyle="bold"
         android:hint="Insira a sua receita total"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -45,6 +46,7 @@
         android:inputType="text"
         android:textStyle="bold"
         android:hint="Insira a sua despesa total"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtxtReceitas" />
