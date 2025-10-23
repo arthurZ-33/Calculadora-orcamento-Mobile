@@ -1,4 +1,5 @@
 package br.ulbra.calculadoraoramentobasico;
 
-public class CadastrarActivity {
+public class TelaLoginActivity {
+
 }
