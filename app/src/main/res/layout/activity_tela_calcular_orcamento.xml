@@ -14,6 +14,7 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="170dp"
         android:text="Calcula orçamento"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,6 +90,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="40dp"
         android:text="Resultado:"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,10 +106,41 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="40dp"
         android:text="O seu saldo será de:"
+        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtvLimiteDespesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="40dp"
+        android:text="Limite de despesa:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvSaldo" />
+
+    <TextView
+        android:id="@+id/txtvIdealPoupanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:text="Ideal poupança:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvLimiteDespesa" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -45,7 +45,6 @@ public class TelaCadastrarActivity extends AppCompatActivity {
                     Long res =db.criarUsuario(email, senha);
                     if(res > 0){
                         Intent intent = new Intent(TelaCadastrarActivity.this ,CalcularOrcamentoActivity.class);
-                        Toast.makeText(TelaCadastrarActivity.this, "Validado com sucesso", Toast.LENGTH_SHORT).show();
                         startActivity(intent);
                         finish();
                     } else {

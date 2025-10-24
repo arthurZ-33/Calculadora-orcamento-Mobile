@@ -54,7 +54,7 @@ public class TelaLoginActivity extends AppCompatActivity {
         btnTelaCad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(TelaLoginActivity.this, CalcularOrcamentoActivity.class);
+                Intent intent = new Intent(TelaLoginActivity.this, TelaCadastrarActivity.class);
                 startActivity(intent);
                 finish();
                 
