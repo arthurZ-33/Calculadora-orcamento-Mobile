@@ -82,5 +82,5 @@ Onde você insere a Receita Total (seu loot) e a Despesa Total (o custo para man
 
 Figura 5: Tela de Cálculo de Orçamento (c5.png).
 
-👨‍💻 Desenvolvedor – "O Mago dos Números"
-Arthur - Desenvolvedor & Mestre de Orçamentos - GitHub
+👨‍💻 Desenvolvedor 
+Arthur - https://github.com/arthurZ-33 - GitHub
