@@ -54,6 +54,7 @@ Siga os passos abaixo para clonar e rodar o projeto localmente. É tão fácil q
 │   │   │   │   └── drawable                # Seus ícones e a imagem do splash.
 │   │   └── ...
 └── README.md
+```
 🎨 Telas do Aplicativo: "The Showcase"
 A interface do usuário é um exemplo de que menos é mais (e que o tempo do desenvolvedor é precioso). Um gradient azul suave e botões pretos robustos. Simples, direto e funcional.
 
