@@ -63,20 +63,24 @@ A interface do usuário é um exemplo de que menos é mais (e que o tempo do des
 
 ![Figura 1 Tela de Splash](imgs/c1.png).
 
+
 2. Tela Inicial (A Escolha de Morpheus)
 Escolha a pílula azul (Cadastro) ou a pílula preta (Login). Você não pode ter os dois... ainda.
 
 ![Figura 2 Tela Inicial de Navegação](imgs/c2.png).
+
 
 3. Tela de Login (Entre se Tiver a Senha Secreta)
 Aqui, a única password que importa é a sua.
 
 ![Figura 3 Tela de Login](imgs/c3.png).
 
+
 4. Tela de Cadastro (Seu Novo User Criado)
 A chance de começar do zero e, desta vez, não usar "123456" como senha.
 
 ![Figura 4 Tela de Cadastro](imgs/c4.png).
+
 
 5. Tela de Cálculo de Orçamento (O Campo de Batalha)
 Onde você insere a Receita Total (seu loot) e a Despesa Total (o custo para manter o guild). O resultado? Seu saldo. A verdade nua e crua.
