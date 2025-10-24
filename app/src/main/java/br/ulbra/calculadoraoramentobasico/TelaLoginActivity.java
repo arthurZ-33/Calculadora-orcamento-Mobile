@@ -30,8 +30,8 @@ public class TelaLoginActivity extends AppCompatActivity {
         btnLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = edtxtEmailLog.getText().toString();
-                String senha = edtxtSenhaLog.getText().toString();
+                String email = edtxtEmailLog.getText().toString().trim();
+                String senha = edtxtSenhaLog.getText().toString().trim();
 
                 if (email.isEmpty()) {
                     Toast.makeText(TelaLoginActivity.this, "usuário não inserido", Toast.LENGTH_SHORT).show();

@@ -31,8 +31,8 @@ public class TelaCadastrarActivity extends AppCompatActivity {
         btnCad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = edtxtEmailCad.getText().toString();
-                String senha = edtxtSenhaCad.getText().toString();
+                String email = edtxtEmailCad.getText().toString().trim();
+                String senha = edtxtSenhaCad.getText().toString().trim();
 
 
                 if(email.isEmpty()){
