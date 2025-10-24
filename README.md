@@ -61,27 +61,27 @@ A interface do usuário é um exemplo de que menos é mais (e que o tempo do des
 1. Tela de Splash (O "Loading" Épico)
 É o momento em que o aplicativo carrega, a promessa de organização financeira. Um icon bacana para não dizer que não tem arte.
 
-![Figura 1 Tela de Splash](c1.png).
+![Figura 1 Tela de Splash](./imgs/c1.png).
 
 2. Tela Inicial (A Escolha de Morpheus)
 Escolha a pílula azul (Cadastro) ou a pílula preta (Login). Você não pode ter os dois... ainda.
 
-![Figura 2 Tela Inicial de Navegação](c2.png).
+![Figura 2 Tela Inicial de Navegação](./imgs/c2.png).
 
 3. Tela de Login (Entre se Tiver a Senha Secreta)
 Aqui, a única password que importa é a sua.
 
-![Figura 3 Tela de Login](c3.png).
+![Figura 3 Tela de Login](./imgs/c3.png).
 
 4. Tela de Cadastro (Seu Novo User Criado)
 A chance de começar do zero e, desta vez, não usar "123456" como senha.
 
-![Figura 4 Tela de Cadastro](c4.png).
+![Figura 4 Tela de Cadastro](./imgsc4.png).
 
 5. Tela de Cálculo de Orçamento (O Campo de Batalha)
 Onde você insere a Receita Total (seu loot) e a Despesa Total (o custo para manter o guild). O resultado? Seu saldo. A verdade nua e crua.
 
-![Figura 5 Tela de Cálculo de Orçamento](c5.png).
+![Figura 5 Tela de Cálculo de Orçamento](./imgs/c5.png).
 
 👨‍💻 Desenvolvedor 
 Arthur - https://github.com/arthurZ-33 - GitHub
