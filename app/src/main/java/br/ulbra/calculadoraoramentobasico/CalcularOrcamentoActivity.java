@@ -56,16 +56,18 @@ public class CalcularOrcamentoActivity extends AppCompatActivity {
 
                 String analise;
 
+
                 if (despesa <= limiteDespesas70) {
                     double excedente = limiteDespesas70 - despesa;
-                    analise = String.format("Você está no caminho 70/30! Suas despesas (R$ %.2f) estão"
-                                    + " ABAIXO do limite (R$ %.2f). Pode poupar um extra de R$ %.2f!",
+                    analise = String.format("Você está no caminho 70/30! \nSuas despesas (R$ %.2f) estão"
+                                    + " ABAIXO do limite (R$ %.2f). \nPode poupar um extra de R$ %.2f!",// <-- E AQUI!
                             despesa, limiteDespesas70, idealPoupanca30 + excedente);
                 } else {
                     double estouro = despesa - limiteDespesas70;
-                    analise = String.format("FAIL! Suas despesas (R$ %.2f) ESTOURARAM o limite de 70%% (R$ %.2f) em R$ %.2f. Reajuste seu *budget*, mortal.",
+                    analise = String.format("FAIL! Suas despesas (R$ %.2f) \nESTOURARAM o limite de 70%% (R$ %.2f) em R$ %.2f. \nReajuste seu *budget*, mortal.",
                             despesa, limiteDespesas70, estouro);
                 }
+// ...
 
 
 
